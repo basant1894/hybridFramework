@@ -62,9 +62,7 @@ public class BaseClass {
 
 		FileUtils.copyFile(source, new File(System.getProperty("user.dir") + "/Screenshots/" +tname+ ".png"));
 		System.out.println("Screenshot taken");
-	}
-
-    
+	}   
 }
 
 

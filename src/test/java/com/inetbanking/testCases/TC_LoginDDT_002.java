@@ -37,9 +37,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 			lp.clickLogOut();
 			driver.switchTo().alert().accept(); //close logout alert
 			driver.switchTo().defaultContent();
-		}
-		
-		
+		}	
 	}
 	public boolean isAlertPresent() { //user defined method to check alert is present or not
 		try {
