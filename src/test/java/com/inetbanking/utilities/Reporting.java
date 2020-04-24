@@ -20,7 +20,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Reporting extends TestListenerAdapter {
-	
+	//public ExtentHtmlReporter extentReporter;
 	public ExtentReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest test;
@@ -41,7 +41,7 @@ public class Reporting extends TestListenerAdapter {
 		
 		((ExtentHtmlReporter) htmlReporter).config().setDocumentTitle("HybridFramework Test Project");
 		((ExtentHtmlReporter) htmlReporter).config().setReportName("Functional Automation Test Report");
-		//((ExtentHtmlReporter) htmlReporter).config().setTestViewChartLocation(ChartLocation.TOP);
+		//((ExtentHtmlReporter) htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		((ExtentHtmlReporter) htmlReporter).config().setTheme(Theme.DARK);
 		
 	}
